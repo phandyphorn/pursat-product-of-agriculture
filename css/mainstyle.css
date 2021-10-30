@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    
+}
+body {
+    font-family: 'Arimo', sans-serif;
+}
+.main-contain {
+    border: 2px solid orange;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px;
+    
+    background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
+}
+.cover,h2 {
+    background-image: url(../photos/cover.jpg);
+    background-size: cover;
+    background-position-y: top;
+    background-position-x: center;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 50vh;
+    color:#fff;
+    font-size: 3rem;
+    box-sizing: border-box;
+    
+}
+
+.navbar {
+    
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 2px solid orange;
+    width: 100%;
+}
+ul {
+    list-style: none;
+    display: grid;
+    /* justify-content: space-between; */
+    grid-template-columns: repeat(6,1fr);
+}
+li {
+    margin: 10px 8px;
+}
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    text-align: center;
+    padding: 9px;
+    border-radius: 10px;
+    font-weight: bold;
+    box-sizing: border-box;
+    width: 100%;
+}
+a:hover {
+    background: #fff;
+    color: green;
+    font-weight: bold;
+}
+.active {
+    background: orange;
+}
+.pic-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10px;
+    
+}
+.content p {
+    margin-top: 40px;
+    
+    
+}
+.btn {
+    background: orange;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    
+}
+.a-btn {
+    text-align: center;
+}
+.btn:hover {
+    background: #fff;
+    color: green;
+    font-weight: bold;
+}
+.pic img {
+    border-radius: 10px;
+}
+.card-contain {
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    margin-top: 10px;
+}
+.image {
+    margin: 10px;
+}
+.card {
+    border-radius: 10px;
+    background: rgba(82, 194, 238, 0.452);
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.title {
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+.image {
+    text-align: center;
+    padding: 10px;
+    
+}
+img {
+    border-radius: 10px;
+    
+}
+i {
+    
+    color: orange;
+    cursor: pointer;
+}
+.marginl-left {
+    margin-left: 5px;
+}
+
+
+footer {
+    margin-top: 20px;
+    background: green;
+    border-radius: 10px;
+    padding: 10px;
+}
+footer li {
+    margin: 10px 7px;
+}
+p {
+    color: #000;
+}
+
+/* fruit page */
+.text {
+   padding: 20px 50px;
+}
+
+/* animal page */
+.box-contain {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+.four-boxs {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.a-box {
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.two-btn {
+    text-align: center;
+}
+.contact {
+    text-align: center;
+}
+h5 {
+    text-align: center;
+    color: #fff;
+}
+
+footer p {
+    color: #fff;
+}
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+   
+    
+}
+.connect {
+    width: 100%;
+    background: rgba(255, 166, 0, 0.479);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    box-sizing: border-box;
+}
+.person {
+    display: flex;
+}
+.product {
+    display: flex;
+}
+.person img {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+}
+label {
+    margin-bottom: 10px;
+}
+.name {
+    margin: 10px 15px;
+}
+.one {
+    border: 2px solid green;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+h3 {
+    text-align: center;
+    margin-top: 10px;
+    color: green;
+}
+@media (max-width: 718px) {
+    .card-contain {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    ul {
+        grid-template-columns: 1fr 1fr;
+    }
+    .pic-content {
+        grid-template-columns: 1fr;
+    }
+    .pic img {
+        width: 100%;
+    }
+    img {
+        width: 150px;
+        height: 100px;
+    }
+    .box-contain {
+        grid-template-columns: 1fr;
+    }
+    .box img {
+        width: 100%;
+        height: 150px;
+    }
+    
+}
+@media (max-width: 455px) {
+    .card-contain {
+        grid-template-columns: 1fr;
+    }
+    
+    ul {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    img {
+        width: 200px;
+        height: 120px;
+    }
+    .four-boxs {
+        grid-template-columns: 1fr;
+    }
+    .box img {
+        width: 100%;
+        height: 200px;
+    }
+}
+
